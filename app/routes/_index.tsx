@@ -20,6 +20,8 @@ export default function Index() {
                         <a
                             className="capitalize"
                             href="https://github.com/benvinegar/counterscale"
+                            target="_blank"
+                            rel="noreferrer"
                         >
                             Get Started
                             <span className="hidden sm:inline">
@@ -28,15 +30,6 @@ export default function Index() {
                             </span>
                         </a>
                     </Button>
-                    <span className="ml-4">
-                        or
-                        <a
-                            href="/dashboard"
-                            className="ml-2 underline font-medium"
-                        >
-                            Browse the demo
-                        </a>
-                    </span>
                 </div>
                 <div className="max-w-md">
                     <img
